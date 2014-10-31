@@ -19,8 +19,8 @@ import com.wx.util.WeixinJson;
 public class WeixinAccessToken {
 	public String GetAccessToken() {
 		String result = "";
-		String appid = "wxaa9457dd88af1ec1";
-		String secret = "bd063774d41c8c08729485b24926209a";
+		String appid = "";//wxaa9457dd88af1ec2
+		String secret = "";//bd063774d41c8c08729485b24926209b
 		JSONArray jsons = new JSONArray();
 		StringBuilder json = new StringBuilder();
 		try {
